@@ -3,7 +3,7 @@ import configparser
 
 def text_prompt(prompt,image_number = 1):
 	config = configparser.ConfigParser()
-	config.read("config.ini")
+	config.read("/home/ubuntu/fooocusAPI/config.ini")
 	url = config["ngrok"]["url"]
 	print(url)
 
